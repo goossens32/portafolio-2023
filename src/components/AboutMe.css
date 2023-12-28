@@ -1,0 +1,31 @@
+.aboutme-container {
+    margin: 5rem auto;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    padding: 2rem;
+    box-shadow: 34px 36px 0px -18px rgba(21,41,33,1);
+}
+.introduction {
+    flex-basis: 80%;
+}
+.introduction h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    color: #587765;
+    margin: 1rem 0 2rem 0; 
+}
+.introduction p {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 1rem;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(31, 29, 29);
+}
+.avatar { display: flex; justify-content: right;}
+.avatar img {
+    width: 80%;
+    border-radius: 50%;
+}

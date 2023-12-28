@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0 10rem;
+    color: white;
+    background-color: #152921;
+   
+}
+
+header, nav a{
+    display: flex;
+    align-items: center;
+}
+header h1{
+    padding-left: 2rem;
+    flex-basis: 50%;
+    border-top: 4px solid transparent;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    font: normal 18px 'Josefin Sans', sans-serif;
+    margin: 0 0;
+    /* Borde transparente para que en hover no "levante" div*/
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    min-height: 2rem;
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+    transition: .3s;
+}
+nav a:hover{
+    border-bottom: 5px solid #7b9e89;
+}

@@ -1,0 +1,31 @@
+.social-container {
+    position: fixed;
+    top: 45vh;
+    
+    right: -1.3rem;
+    background-color: rgba(80, 79, 79, 0.295);
+    padding: 1rem;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 180px;
+
+    transition: .2s ease;
+}
+
+.social-container i {
+    color: white;
+    transition: .2s ease;
+}
+/* HOVER EFFECTS */
+.social-container:hover {
+    background-color: #7b9e89;
+    right: 1rem;
+}
+.social-container i:hover {
+    color: white;
+    cursor: pointer;
+}
