@@ -1,5 +1,5 @@
 .aboutme-container {
-    margin: 5rem auto;
+    margin: 8rem auto 0 auto;
     width: 55%;
     display: flex;
     align-items: center;
@@ -28,4 +28,29 @@
 .avatar img {
     width: 80%;
     border-radius: 50%;
+}
+
+.btn-see-projects {
+    width: 15%;
+    margin: 10rem auto 0 auto;
+    
+}
+.btn-see-projects button {
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: white;
+    border: 3px solid #587765;
+
+    transition: .4s ease;
+}
+
+.btn-see-projects button:hover {
+    cursor: pointer;
+    /* Button animation */
+    box-shadow: 5px 5px 0px 0px rgba(21,41,33,1);
+    transform:translateX(-5px) translateY(-5px);
 }
