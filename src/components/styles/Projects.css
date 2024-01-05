@@ -1,6 +1,6 @@
 .projects-container {
     margin: 12rem auto 0 auto;
-    padding: 6rem 10rem;
+    padding: 6rem 10rem 6rem 10rem;
     background-color: #152921
 }
 
@@ -79,4 +79,27 @@
     /* Button animation */
     box-shadow: 5px 5px 0px 0px rgba(21,41,33,1);
     transform:translateX(-5px) translateY(-5px);
-} 
+}
+.btn-see-studies {
+    width: 15%;
+    margin: 6rem auto 0 auto;
+    
+}
+.btn-see-studies a button{
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: white;
+    border: 3px solid #587765;
+
+    transition: .4s ease;
+}
+.btn-see-studies button:hover {
+    cursor: pointer;
+    /* Button animation */
+    box-shadow: 5px 5px 0px 0px #7b9e89;
+    transform:translateX(-5px) translateY(-5px);
+}

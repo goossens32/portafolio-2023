@@ -1,4 +1,4 @@
-import './Projects.css';
+import './styles/Projects.css';
 
 const Projects = () => {
     return (
@@ -88,8 +88,9 @@ const Projects = () => {
                         
                     </div>
                 </div>
-                
-
+            </div>
+            <div className='btn-see-studies'>
+                    <a href="#studies"><button>MIS ESTUDIOS</button></a>
             </div>
         </div>
     )

@@ -1,0 +1,19 @@
+.footer-container {
+    padding: 2rem;
+    background-color: rgba(21,41,33,1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.footer-container a i{
+    margin-left: 3rem;
+    font-size: 25px;
+    color: white;
+}

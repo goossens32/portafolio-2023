@@ -1,0 +1,39 @@
+.studies-container {
+    margin: 1rem auto 0 auto;
+    padding: 6rem 10rem 6rem 10rem;
+}
+.studies-container h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    color: #587765;
+    margin-bottom: 3rem;
+}
+.study-item {
+    margin: 0 auto 3rem;
+    width: 50%;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    box-shadow: 34px 36px 0px -18px rgba(21,41,33,1);
+    border: 1px solid #d6d6d6;
+}
+.square{
+    margin-right: 3rem;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d6d6d6;
+    background-color: #587765;
+    box-shadow: 5px 5px 0px 0px rgba(21,41,33,1);
+}
+.item h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: #587765;
+    margin-bottom: 3rem;
+}
+.item p{
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+}

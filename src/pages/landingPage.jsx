@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import Social from "../components/Social";
 import AboutMe from "../components/AboutMe";
 import Projects from "../components/Projects";
+import Studies from "../components/Studies";
+import Footer from "../components/Footer";
 
 const LandingPage = () => {
     return (
@@ -11,6 +13,8 @@ const LandingPage = () => {
             <Social />
             <AboutMe />
             <Projects />
+            <Studies />
+            <Footer />
         </div>
     )    
 }

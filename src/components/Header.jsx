@@ -1,4 +1,4 @@
-import './Header.css';
+import './styles/Header.css';
 const Header = () => {
     return (
         <div>
@@ -9,7 +9,7 @@ const Header = () => {
                 <nav>
                     <a href="#">Inicio</a>
                     <a href="#projects">Proyectos realizados</a>
-                    <a href="#services">Servicios</a>
+                    <a href="#studies">Mis estudios</a>
                     <a href="/contact">Contacto</a>
                 </nav>
             </header>
