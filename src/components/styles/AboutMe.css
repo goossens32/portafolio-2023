@@ -7,22 +7,21 @@
     border: 1px solid #d6d6d6;
     padding: 2rem;
     box-shadow: 34px 36px 0px -18px rgba(21,41,33,1);
+    height: 100%;
 }
 .introduction {
     flex-basis: 80%;
 }
 .introduction h2 {
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 42px;
     color: #587765;
     margin: 1rem 0 2rem 0; 
 }
 .introduction p {
-    font-family: 'Josefin Sans', sans-serif;
     margin-top: 1rem;
     font-size: 18px;
     line-height: 28px;
-    color: rgb(31, 29, 29);
+    color: rgb(44, 41, 41);
 }
 .avatar { display: flex; justify-content: right;}
 .avatar img {
@@ -39,7 +38,6 @@
     width: 100%;
     padding: 1rem 0;
     border-radius: 0;
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: bolder;
     font-size: 18px;
     background-color: white;
@@ -54,3 +52,13 @@
     box-shadow: 5px 5px 0px 0px rgba(21,41,33,1);
     transform:translateX(-5px) translateY(-5px);
 }
+
+@media (max-width:1366px) {
+    .aboutme-container {
+        margin: 4rem auto 0 auto;
+        width: 65%;
+    }
+    .btn-see-projects {
+        margin: 5rem auto 0 auto;
+    }
+  }

@@ -3,9 +3,8 @@
     padding: 6rem 10rem 6rem 10rem;
 }
 .studies-container h2 {
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 42px;
-    color: #587765;
+    color: #fff;
     margin-bottom: 3rem;
 }
 .study-item {
@@ -28,8 +27,7 @@
     box-shadow: 5px 5px 0px 0px rgba(21,41,33,1);
 }
 .item h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     color: #587765;
     margin-bottom: 3rem;
 }
@@ -37,3 +35,9 @@
     color: rgb(75, 75, 75);
     font-weight: bold;
 }
+
+@media (max-width:1366px) {
+    .study-item {
+        width: 70%;
+    }
+  }

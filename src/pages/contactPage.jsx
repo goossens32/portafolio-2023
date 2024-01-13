@@ -1,7 +1,12 @@
+// Import Contact Page components
+import Header from "../components/Header";
+import Contact from "../components/contactPage/Contact";
+
 const ContactPage = () => {
     return (
         <div>
-            <h1>EJEMPLO CONTACTO</h1>
+            <Header />
+            <Contact />
         </div>
     )
 }

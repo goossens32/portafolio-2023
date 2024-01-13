@@ -3,8 +3,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
-  Navigate,
+  Navigate
 } from "react-router-dom";
 import LandingPage from './pages/landingPage.jsx';
 import ContactPage from './pages/contactPage.jsx';
