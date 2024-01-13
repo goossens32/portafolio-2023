@@ -1,3 +1,7 @@
+# Netlify link
+
+https://cgp00-portafolio2023.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
